@@ -161,3 +161,8 @@ variable "subscription_filter_policy" {
   type        = string
   default     = null
 }
+
+variable "lambda_runtime" {
+  type    = string
+  default = "python3.11"
+}
